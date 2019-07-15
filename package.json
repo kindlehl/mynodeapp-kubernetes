@@ -1,0 +1,30 @@
+{
+  "name": "mynodeapp",
+  "version": "1.0.0",
+  "description": "Node app for testing on k8s",
+  "main": "server.js",
+  "dependencies": {
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kindlehl/k8s-node-app.git"
+  },
+  "keywords": [
+    "test",
+    "k8s",
+    "node",
+    "falafel"
+  ],
+  "author": "Hunter Lannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kindlehl/k8s-node-app/issues"
+  },
+  "homepage": "https://github.com/kindlehl/k8s-node-app#readme"
+}
